@@ -99,6 +99,3 @@ If you need to give the kit again, run:
 
 ```txt
 /fast-start-kit
-
-![Real Smoke Main Banner](https://raw.githubusercontent.com/SquishyPoos1870/LOGO/main/f510efe5-d003-47e1-bcc5-e98aa77736c3.png)
-
