@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------
+Version: 1.0.4
+Date: 2026-06-18
+  Changes:
+    - Renamed the mod title to Really Fast Start.
+    - Updated the internal mod name to really-fast-start for the new release package.
+    - Updated descriptions, messages, README, and locale strings for Really Fast Start branding.
+    - Added /really-fast-start command.
+    - Kept /fast-start-kit as a legacy command alias.
+    - Updated the LICENSE file to include the full GNU General Public License v3.0 text.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.3
+Date: 2026-06-18
+  Changes:
+    - Added a custom Fast Start construction robot item/entity.
+    - Only the Fast Start construction robots are faster.
+    - Removed the game-wide vanilla construction/logistic robot speed changes.
+    - Starter kit now gives 50 Fast Start construction robots instead of vanilla construction robots.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.2
+Date: 2026-06-18
+  Changes:
+    - Reduced starter construction robots from 100 to 50.
+    - Removed starter logistic robots.
+    - Removed starter blueprint, deconstruction planner, and upgrade planner.
+    - Made construction and logistic robots 3x faster.
+    - Updated grant message and description.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.1
+Date: 2026-06-18
+  Changes:
+    - Filled the Power Armor MK2 grid with a builder loadout.
+    - Added more bots, repair packs, and planner tools.
+---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2026-06-18
+  Info:
+    - Initial release.

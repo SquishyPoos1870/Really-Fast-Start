@@ -1,4 +1,4 @@
-local MOD_NAME = "Fast Start Kit"
+local MOD_NAME = "Really Fast Start"
 
 local function item_exists(name)
   if not name then return false end
@@ -141,7 +141,7 @@ local function grant_fast_start(player, force)
   safe_insert(main_inv, { name = "repair-pack", count = 100 })
 
   storage.fast_start_kit.given[player.index] = true
-  player.print({ "", "[", MOD_NAME, "] Builder kit granted: full Power Armor MK2 grid, 50 Fast Start construction bots, and 100 repair packs." })
+  player.print({ "", "[", MOD_NAME, "] Builder kit granted: full Power Armor MK2 grid, 50 Really Fast Start construction bots, and 100 repair packs." })
 end
 
 script.on_init(function()
@@ -165,7 +165,7 @@ script.on_event(defines.events.on_player_respawned, function(event)
   grant_fast_start(player, false)
 end)
 
-commands.add_command("fast-start-kit", "Gives the Fast Start Kit again. Admins can use: /fast-start-kit <player>", function(command)
+local function really_fast_start_command(command)
   local caller = command.player_index and game.get_player(command.player_index) or nil
   local target = caller
 
@@ -185,7 +185,10 @@ commands.add_command("fast-start-kit", "Gives the Fast Start Kit again. Admins c
   if target then
     grant_fast_start(target, true)
     if caller and caller ~= target then
-      caller.print("Fast Start Kit granted to " .. target.name .. ".")
+      caller.print("Really Fast Start kit granted to " .. target.name .. ".")
     end
   end
-end)
+end
+
+commands.add_command("really-fast-start", "Gives the Really Fast Start kit again. Admins can use: /really-fast-start <player>", really_fast_start_command)
+commands.add_command("fast-start-kit", "Legacy alias for Really Fast Start. Admins can use: /fast-start-kit <player>", really_fast_start_command)

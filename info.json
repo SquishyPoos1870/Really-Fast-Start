@@ -1,10 +1,10 @@
 {
-  "name": "fast-start-kit",
-  "version": "1.0.3",
-  "title": "Fast Start Kit",
+  "name": "really-fast-start",
+  "version": "1.0.4",
+  "title": "Really Fast Start",
   "author": "Squishy187",
   "factorio_version": "2.0",
-  "description": "Starts each player with a fully loaded Power Armor MK2 builder kit: power generation, exoskeletons, personal roboports, batteries, shields, 50 custom faster Fast Start construction robots, and repair packs. Vanilla robot speed is not changed.",
+  "description": "Really Fast Start gives every player a loaded Power Armor MK2 builder kit with reactors, exoskeletons, personal roboports, batteries, shields, 50 custom faster construction robots, and repair packs. Only the custom starter bots are faster; vanilla robot speed is unchanged. Licensed under GNU GPLv3.",
   "dependencies": [
     "base >= 2.0.0"
   ]
