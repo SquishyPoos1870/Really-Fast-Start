@@ -1,4 +1,13 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.5
+Date: 2026-06-18
+  Changes:
+    - Added a full Mod Portal description for Really Fast Start.
+    - Added DESCRIPTION.md using the new mod page text.
+    - Updated README.md to match the new public mod description.
+    - Kept GNU General Public License v3.0 licensing.
+---------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------
 Version: 1.0.4
 Date: 2026-06-18
   Changes:
